@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- font -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+
+        <!-- bs -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="Css/index.css" />
+        <script defer src="js/index.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+                <a class="navbar-brand logo ms-4 bounceInRight" href="#"
+                    >ISHTA MUSIC</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#myNavbar"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    style="border: none"
+                >
+                    <label class="menuButton" for="check">
+                        <input type="checkbox" id="check" />
+                        <span class="top"></span>
+                        <span class="mid"></span>
+                        <span class="bot"></span>
+                    </label>
+                </button>
+                <div
+                    class="collapse navbar-collapse justify-content-center"
+                    id="myNavbar"
+                >
+                    <ul class="navbar-nav nav-list m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold lh-1" href="#contact"
+                                >צור קשר</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold lh-1" href="#about"
+                                >קצת עלינו</a
+                            >
+                        </li>
+
+                        <li class="nav-item">
+                            <a
+                                class="nav-link fw-bold lh-1"
+                                href="#recordedHere"
+                                >הוקלט כאן</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold lh-1" href="#services"
+                                >שרותים</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold lh-1" href="#home"
+                                >דף הבית</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- HEADER -->
+        <!-- MAIN -->
+        <!-- HOME PAGE -->
+        <section id="home" class="text-center">
+            <div class="title">
+                <span class="background-text">ISHTA MUSIC</span>
+                <span>
+                    Your sound,<a class="link-override mt-5">Recorded here.</a>
+                </span>
+            </div>
+        </section>
+        <hr />
+        <!-- HOME PAGE -->
+
+        <!-- SERVICES PAGE -->
+        <section id="services" class="">
+            <h2 class="text-center mb-5">שרותים</h2>
+            <div
+                id="carouselExampleCaptions"
+                class="carousel slide carousel-fade mb-5 p-4"
+                data-mdb-ride="carousel"
+            >
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner rounded-5 shadow-4-strong">
+                    <div class="carousel-item active">
+                        <img
+                            src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            class="d-block w-100 mx-auto d-block"
+                            alt="..."
+                            style="height: 27rem"
+                        />
+                        <div class="carousel-caption carousel-caption-text">
+                            <h5 class="">הפקה מוזיקלית</h5>
+                            <p class="lead">
+                                הפקת סינגלים ואלבומים משלב הסקיצות ותכנון ההפקה,
+                                דרך שלב ההקלטות והתכנותים ועד למיקס ומאסטרינג.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://images.pexels.com/photos/4143420/pexels-photo-4143420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            class="d-block w-100 mx-auto d-block"
+                            alt="..."
+                            style="height: 27rem"
+                        />
+                        <div class="carousel-caption carousel-caption-text">
+                            <h5>הקלטות ומיקסים</h5>
+                            <p class="lead">
+                                הקלטות כלי נגינה ושירה, ועד להקלטה של הרכב מלא
+                                המנגן ביחד בחדר (כמו פעם!), שירותי עריכת סאונד
+                                ומיקס.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://images.pexels.com/photos/6883804/pexels-photo-6883804.jpeg"
+                            class="d-block w-100 mx-auto d-block"
+                            alt="..."
+                            style="height: 27rem"
+                        />
+                        <div class="carousel-caption">
+                            <h5>פודקאסט</h5>
+                            <p class="lead">
+                                הפקת פודקאסטים מא' עד ת'. הקלטה, עריכת סאונד,
+                                צילום בשלוש מצלמות וידאו, ניתוב בזמן אמת, עריכת
+                                היילייטס והפצה.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev me-5"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next ms-5"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- SERVICES PAGE -->
+
+        <!-- recordedHere page -->
+        <section id="recordedHere">
+            <h2 class="text-center mb-5">הוקלט כאן</h2>
+
+            <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="false"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cardWrap">
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded-3"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cardWrap">
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cardWrap">
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                            <div class="myCard">
+                                <video
+                                    controls
+                                    width="100%"
+                                    height="auto"
+                                    class="rounded"
+                                >
+                                    <source
+                                        src="vid/dovshania.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about">
+            <section class="py-5 py-xl-6">
+                <div class="container mb-4 mb-md-5 mb-xl-6">
+                    <div class="row justify-content-md-center">
+                        <div class="col-12 col-md-10 col-xxl-8">
+                            <img
+                                class="img-fluid rounded-5 shadow-4-strong"
+                                loading="lazy"
+                                src="img/2.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="container overflow-hidden">
+                    <div class="row gy-2 gy-md-0 justify-content-xxl-center">
+                        <div class="col-12 order-md-1 col-md-8 col-xxl-6">
+                            <div class="text-center text-md-start">
+                                <h2 class="display-3 fw-bold lh-1">
+                                    EFI ISHTA
+                                </h2>
+                                <p class="text-secondary fs-4 mb-2">
+                                    Music Producer
+                                </p>
+                                <hr
+                                    class="w-25 mx-auto ms-md-0 mb-4 text-secondary"
+                                />
+                                <p>
+                                    Nam sit amet condimentum arcu. Vestibulum
+                                    non convallis elit, nec finibus purus. Morbi
+                                    a tortor vitae mauris volutpat lacinia in
+                                    vel leo. Vestibulum ante ipsum primis in
+                                    faucibus orci luctus et ultrices posuere
+                                    cubilia curae; Aliquam vel dictum nisi.
+                                </p>
+                                <p>
+                                    Duis bibendum lectus vitae posuere euismod.
+                                    Nunc semper mauris sed justo consequat
+                                    mollis. Suspendisse eu lectus ornare,
+                                    pulvinar tortor eget, iaculis libero. Nullam
+                                    non metus sed lacus luctus posuere. Morbi
+                                    semper pharetra tortor sit amet mollis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 order-md-0 col-md-4 col-xxl-4">
+                            <div
+                                class="text-center text-md-start me-md-3 me-xl-5"
+                            >
+                                <p class="mb-4">
+                                    <span class="d-block display-6 lh-1"
+                                        >12+</span
+                                    >
+                                    <span class="fs-4 text-secondary"
+                                        >years of experience</span
+                                    >
+                                </p>
+                                <div class="d-grid">
+                                    <button
+                                        class="btn btn-outline-warning btn-lg"
+                                        type="button"
+                                        id="whatsappButton"
+                                    >
+                                        צור קשר
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- About Page -->
+
+        <!-- Contact us -->
+        <section id="contact">
+            <!-- Container for demo purpose -->
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <h1 class="mb-3">דברו איתנו</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="fName" class="form-label"
+                                        >שפ פרטי</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="fName"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lName" class="form-label"
+                                        >שם משפחה</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="lName"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label"
+                                        >מייל</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="subject" class="form-label"
+                                        >סוג הפנייה</label
+                                    >
+                                    <select
+                                        class="form-select"
+                                        id="subject"
+                                        required
+                                    >
+                                        <option disabled selected>
+                                            בחר סוג פנייה
+                                        </option>
+                                        <option value="שאלה">
+                                            בירור פרטים
+                                        </option>
+                                        <option value="הקלטה">
+                                            מעוניין/ת להקליט
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label"
+                                        >תוכן הפנייה</label
+                                    >
+                                    <textarea
+                                        class="form-control"
+                                        id="message"
+                                        rows="5"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6">
+                                            <button
+                                                type="submit"
+                                                class="btn btn-dark w-100 fw-bold"
+                                            >
+                                                שלח
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact us -->
+
+        <!--------------------------------Footer------------------------------>
+        <footer>
+            <div class="container">
+                <div class="row footer-content">
+                    <div class="col-md-6 col-lg-4">
+                        <p class="footer-logo">&copy; 2023 ISHTA MUSIC</p>
+                        <!-- אייקונים של מדיה חברתית -->
+                        <div class="social-icons">
+                            <a href="#" target="_blank"
+                                ><i class="fab fa-facebook"></i
+                            ></a>
+                            <a href="#" target="_blank"
+                                ><i class="fab fa-tiktok"></i
+                            ></a>
+                            <a href="#" target="_blank"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="#" target="_blank"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="contact-details">
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                רחוב הדגם 123, תל אביב
+                            </p>
+                            <p><i class="fas fa-phone"></i>123-456-789</p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:example@example.com"
+                                    >example@example.com</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-4 text-center">
+                        <!-- טקסט נוסף או תמונות אם יש -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--------------------------------Footer------------------------------>
+    </body>
+</html>
