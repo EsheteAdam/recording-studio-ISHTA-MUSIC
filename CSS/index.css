@@ -182,7 +182,7 @@ p,
 }
 
 nav {
-    height: 4.5rem;
+    height: 6rem;
 }
 .logo {
     color: #fff;
@@ -287,9 +287,6 @@ nav {
 /* HOME */
 
 /* recording her page */
-#recordedHere {
-    margin: 1rem;
-}
 
 /* contact us */
 option {
@@ -333,8 +330,8 @@ form {
     }
 }
 
-.carousel-item.active img:first-child {
-    animation: myAnim 30s ease-in-out 0s infinite normal both;
+.carousel-item.active img {
+    animation: myAnim 25s ease 0s infinite alternate forwards;
 }
 
 @keyframes myAnim {
@@ -437,4 +434,17 @@ input[type]:checked ~ span.bot {
 input[type]:checked ~ span.mid {
     transform: translateX(-20px);
     opacity: 0;
+}
+/* togel navbar */
+
+/* services */
+#services,
+#about,
+#contact,
+#recordedHere {
+    /* border: 1px solid gold; */
+    padding-top: 6rem;
+    margin: auto;
+}
+#services {
 }

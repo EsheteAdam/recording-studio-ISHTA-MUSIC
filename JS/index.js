@@ -31,38 +31,38 @@ menuIcon.onclick = () => {
 //     alert('Form submitted successfully!');
 // }
 
-function submitForm() {
-    // אסוף את הנתונים מהשדות בטופס
-    const firstName = document.getElementById("contactBlockFirstName").value;
-    const lastName = document.getElementById("contactBlockLastName").value;
-    const email = document.getElementById("contactBlockEmail").value;
-    const subject = document.getElementById("contactBlockSubject").value;
-    const message = document.getElementById("contactBlockMessage").value;
+// function submitForm() {
+//     // אסוף את הנתונים מהשדות בטופס
+//     const firstName = document.getElementById("contactBlockFirstName").value;
+//     const lastName = document.getElementById("contactBlockLastName").value;
+//     const email = document.getElementById("contactBlockEmail").value;
+//     const subject = document.getElementById("contactBlockSubject").value;
+//     const message = document.getElementById("contactBlockMessage").value;
 
-    // בניית אובייקט שמכיל את הנתונים
-    const data = {
-        firstName: firstName,
-        lastName: lastName,
-        email: email,
-        subject: subject,
-        message: message,
-    };
+//     // בניית אובייקט שמכיל את הנתונים
+//     const data = {
+//         firstName: firstName,
+//         lastName: lastName,
+//         email: email,
+//         subject: subject,
+//         message: message,
+//     };
 
-    // שליחת הנתונים לכתובת אימייל (שימותה השרת שאתה יכול לשלוח אליו את הנתונים)
-    fetch("YOUR_EMAIL_API_URL", {
-        method: "POST", // אם אתה רוצה לשלוח POST request
-        body: JSON.stringify(data), // המרת הנתונים ל JSON
-        headers: {
-            "Content-Type": "application/json",
-        },
-    })
-        .then((response) => response.json())
-        .then((data) => {
-            // מטפל בתשובה מהשרת (אפשר להוסיף פה הודעה למשתמש כי הטופס נשלח בהצלחה)
-            console.log(data);
-        })
-        .catch((error) => {
-            // מטפל בשגיאות אם ישנן
-            console.error("Error:", error);
-        });
-}
+//     // שליחת הנתונים לכתובת אימייל (שימותה השרת שאתה יכול לשלוח אליו את הנתונים)
+//     fetch("YOUR_EMAIL_API_URL", {
+//         method: "POST", // אם אתה רוצה לשלוח POST request
+//         body: JSON.stringify(data), // המרת הנתונים ל JSON
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//     })
+//         .then((response) => response.json())
+//         .then((data) => {
+//             // מטפל בתשובה מהשרת (אפשר להוסיף פה הודעה למשתמש כי הטופס נשלח בהצלחה)
+//             console.log(data);
+//         })
+//         .catch((error) => {
+//             // מטפל בשגיאות אם ישנן
+//             console.error("Error:", error);
+//         });
+// }
